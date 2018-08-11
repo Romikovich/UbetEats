@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Uber Eats</title>
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/fontawesome.css">    <!-- значки не показываются wtf -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header id="main-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+            <a href="index.html"><img src="images/logo.jpg" alt="logo" width="106px" style="margin-top: 25px;"></a>
+          </div>
+          <div class="address-line col-sm-4 col-md-4 col-lg-4">     <!-- при размере sm и меньше ломается сетка wtf -->
+            <button type="button" name="outgoing-address">ASAP</button>
+            <span>to</span>
+            <form>
+              <button type="submit">S</button>
+              <input type="text" name="destination-address" placeholder="ul. Bolshaya Dmitrovka, 22" autocomplete="off">
+            </form>
+          </div>
+          <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 end-xs end-sm end-md end-lg">   <!-- при размере sm и меньше ломается сетка wtf [2] -->
+            <ul class="login-buttons">
+              <li><button type="button" name="signIn">Sign In</button></li>
+              <li><button type="button" name="register" class="register-button">Register</button></li>
+              <li class="last-button"><button type="button" name="card"><i class="fas fa-shopping-bag"></i></button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- CONTENT -->
+    <div class="container">
+      <div id="content">
+        <div class="row">
+          <div class="searching-line col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <form>
+              <button type="submit">S</button>
+              <input type="text" name="search" placeholder="Search for restaurant or cuisine" autocomplete="off">
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="address-line-xs col-xs-2 col-sm-2 col-md-2 col-lg-2">
+            <p>When</p>
+            <button type="button" name="outgoing-address">ASAP</button>
+          </div>
+          <div class="address-line-xs col-xs-10 col-sm-10 col-md-10 col-lg-10">
+            <p>To</p>
+            <form>
+              <button type="submit">S</button>
+              <input type="text" name="destination-address" placeholder="ul. Bolshaya Dmitrovka, 22" autocomplete="off">
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2>Moscow Restaurants</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="restaurants">
+              <img src="images/res1.jpg" alt="">
+              <a href="#"><h4>Макдоналдс — Газетный</h4></a>
+              <a href="#"><p class="kitchen">₽₽ • Бургеры</p></a>
+              <a href="#"><p class="time">25 - 35 Min</p></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="restaurants">
+              <img src="images/res2.jpg" alt="">
+              <a href="#"><h4>DimSum & Co — ЦДМ</h4></a>
+              <a href="#"><p class="kitchen">₽ • Японская • Китайская • Азиатская</p></a>
+              <a href="#"><p class="time">40 - 50 Min</p></a>
+            </div>
+          </div>
+          <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="restaurants">
+              <img src="images/res3.jpg" alt="">
+              <a href="#"><h4>ДвижОК — Манежная</h4></a>
+              <a href="#"><p class="kitchen">₽ • Американская • Европейская</p></a>
+              <a href="#"><p class="time">35 - 45 Min</p></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="restaurants">
+              <img src="images/res4.jpg" alt="">
+              <a href="#"><h4>НЯ — NHA</h4></a>
+              <a href="#"><p class="kitchen">₽₽ • Вьетнамская</p></a>
+              <a href="#"><p class="time">30 - 40 Min</p></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="restaurants">
+              <img src="images/res5.jpg" alt="">
+              <a href="#"><h4>Точка Дзы — Цветной</h4></a>
+              <a href="#"><p class="kitchen">₽₽ • Вьетнамская</p></a>
+              <a href="#"><p class="time">40 - 50 Min</p></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="restaurants">
+              <img src="images/res6.jpg" alt="">
+              <a href="#"><h4>Cinnabon</h4></a>
+              <a href="#"><p class="kitchen">₽ • Выпечка • Десерты • Капкейки</p></a>
+              <a href="#"><p class="time">25 - 35 Min</p></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="restaurants">
+              <img src="images/res7.jpg" alt="">
+              <a href="#"><h4>PIZZELOVE</h4></a>
+              <a href="#"><p class="kitchen">₽₽ • Пицца</p></a>
+              <a href="#"><p class="time">15 - 25 Min</p></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="restaurants">
+              <img src="images/res8.jpg" alt="">
+              <a href="#"><h4>Zю кафе — Тверская</h4></a>
+              <a href="#"><p class="kitchen">₽₽ • Японская</p></a>
+              <a href="#"><p class="time">25 - 35 Min</p></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="restaurants">
+              <img src="images/res9.jpg" alt="">
+              <a href="#"><h4>Bar BQ Cafe — Манежная</h4></a>
+              <a href="#"><p class="kitchen">₽₽₽ • Европейская</p></a>
+              <a href="#"><p class="time">30 - 40 Min</p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-logo col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <a href="index.html"><img src="images/logo2.png" alt="logo" width="200px" style="margin: 0;"></a>
+          </div>
+        </div>
+        <div class="footer-wrapper">
+          <div class="row footer-about between-sm between-md between-lg"> <!-- тут не работает between wtf -->
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <div class="select-language">
+                <i class="planet fas fa-globe"></i>
+                <select name="language">
+                  <option>ENGLISH</option>
+                  <option>RUSSIAN</option>
+                </select>
+                <button type="button"><i class="fas fa-angle-down"></i></button>
+              </div>
+              <p><span>#</span>UberEats</p>
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+              <a href="#"><i class="fab fa-twitter-square"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ul>
+                <li><a href="#">About UberEats</a></li>
+                <li><a href="#">Become a Delivery Partner</a></li>
+                <li><a href="#">Become a Restaurant Partner</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <ul>
+                <li><a href="#">See all cities</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-wrapper">
+          <div class="row footer-stores">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-xs center-sm center-md center-lg">
+              <a href="#"><img src="images/apple.png" alt="appStore"></a>
+              <a href="#"><img src="images/google.png" alt="googlePlay"></a>
+            </div>
+          </div>
+        <div class="footer-wrapper">
+          <div class="row footer-info">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+              <p class="copy-info">&copy 2017 Uber Technologies Inc.</p>
+            </div>
+            <div class="privacy-margin col-xs-12 col-sm-4 col-md-4 col-lg-4 center-sm center-md center-lg">
+              <a href="#">Privacy</a>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 end-sm end-md end-lg">
+              <a href="#">Terms</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
