@@ -1,0 +1,70 @@
+#main-header{
+  box-shadow: 0 0 16px rgb(38, 38, 38, 0.16);
+}
+
+#main-header button{
+  margin: 15px 10px 15px 0;
+  padding: 8px 16px;
+  background-color: #fff;
+  line-height: 24px;
+  border: 1px solid rgb(38, 38, 38, 0.16);
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+#main-header span{
+  font-size: 13px;
+}
+
+.address-line {
+  padding-right: 0;
+}
+
+.address-line form{
+  display: inline-block;
+  position: relative;
+  margin-left: 10px;
+}
+
+.address-line form i{
+  position: absolute;
+  top: 11px;
+  left: 7px;
+  font-size: 18px;
+}
+
+.address-line form input{
+  line-height: 39px;
+  border: 1px solid rgb(38, 38, 38, 0.16);
+  border-radius: 2px;
+  padding-left: 40px;
+  width: 100%;
+}
+
+.last-button{
+  margin-left: 20px;
+}
+
+.last-button i{
+  cursor: pointer;
+  font-size: 25px;
+  color: rgb(38, 38, 38, 0.66);
+}
+
+.last-button button{
+  margin-right: 0 !important;
+  border-style: none !important;
+}
+
+.login-buttons button{
+  font-size: 11px !important;
+}
+
+.login-buttons .register-button{
+  color: #fff;
+  background-color: #000 !important;
+}
+
+.login-buttons li{
+  display: inline-block;
+}

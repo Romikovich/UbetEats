@@ -1,0 +1,99 @@
+footer{
+  background: rgb(38, 38, 38);
+  color: #fff;
+  padding: 56px 0 40px;
+}
+
+footer a{
+  color: #fff;
+  transition: 0.2s linear;
+}
+
+footer a:hover,
+footer span{
+  color: rgb(73, 161, 68);
+}
+
+.footer-logo{
+  margin-bottom: 40px;
+}
+
+.footer-wrapper{
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.select-language{
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.select-language i{
+  position: absolute;
+  border-style: none;
+  top: 13px;
+  left: 20px;
+}
+
+.select-language button{
+  position: absolute;
+  border-style: none;
+  color: #fff;
+  font-size: 20px;
+  top: -3px;
+  left: 120px;
+}
+
+.select-language select{
+  color: #fff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  background: rgb(59, 59, 59);
+  border-style: none;
+  border-radius: 2px;
+  padding: 12px 71px 12px 48px;
+}
+
+.footer-about{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.footer-about a i{
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.footer-about li{
+  margin-bottom: 30px;
+}
+
+.footer-about button{
+  margin-bottom: 50px;
+}
+
+footer p{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-stores{
+  padding: 30px 0;
+}
+
+.footer-stores img{
+  width: 109px;
+  margin-right: 24px;
+}
+
+.footer-info{
+  margin-bottom: 24px;
+  margin-top: 30px;
+}
+
+.privacy-margin{
+  margin-bottom: 20px;
+}
+
+.copy-info{
+  font-size: 11px;
+}

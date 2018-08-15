@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  line-height: 1.15;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+.container{
+  margin: auto;
+  padding: 0 8px;
+}
+
+h2{
+  line-height: 34px;
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 767px){
+  .address-line{display: none;}
+  .address-line-xs{display: block;}
+  .last-button button{display: none;}
+  .register-button{margin-right: 0 !important;}
+  .searching-line input::-moz-placeholder {font-size: 13px;}
+  .searching-line input::-webkit-input-placeholder {font-size: 13px;}
+  .container{width: 560px; max-width: 100%;}
+}
