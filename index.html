@@ -16,23 +16,23 @@
     <!-- HEADER -->
     <header id="main-header">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
-            <a href="index.html"><img src="images/logo-header.jpg" alt="logo" width="106px" style="margin-top: 25px;"></a>
+        <div class="header-wrapper">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo-header.jpg" alt="logo"></a>
           </div>
-          <div class="address-line col-sm-4 col-md-4 col-lg-4">
+          <div class="address-line">
             <button type="button" name="outgoing-address">ASAP</button>
             <span>to</span>
-            <form>      <!-- при размере sm и меньше ломается сетка wtf -->
+            <form>
               <i class="fas fa-map-marker-alt"></i>
               <input type="text" name="destination-address" placeholder="ul. Bolshaya Dmitrovka, 22" autocomplete="off">
             </form>
           </div>
-          <div class="col-xs-6 col-sm-4 col-md-4 col-lg-4 end-xs end-sm end-md end-lg">
+          <div class="login">
             <ul class="login-buttons">
               <li><button type="button" name="signIn">Sign In</button></li>
               <li><button type="button" name="register" class="register-button">Register</button></li>
-              <li class="last-button"><button type="button" name="cart" style="padding: 5px;"><i class="fas fa-shopping-bag"></i></button></li>
+              <li class="cart-button"><button type="button" name="cart" style="padding: 5px;"><i class="fas fa-shopping-bag"></i></button></li>
             </ul>
           </div>
         </div>
@@ -41,20 +41,18 @@
     <!-- CONTENT -->
     <div class="container">
       <div id="content">
-        <div class="row">
-          <div class="searching-line col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <form>
-              <i class="fas fa-search"></i>
-              <input type="text" name="search" placeholder="Search for restaurant or cuisine" autocomplete="off">
-            </form>
-          </div>
+        <div class="searching-line">
+          <form>
+            <i class="fas fa-search"></i>
+            <input type="text" name="search" placeholder="Search for restaurant or cuisine" autocomplete="off">
+          </form>
         </div>
-        <div class="row">
-          <div class="a address-line-xs col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <div class="address-line-xs">
+          <div class="address-line-date">
             <p>When</p>
             <button type="button" name="outgoing-address">ASAP</button>
           </div>
-          <div class="address-line-xs col-xs-10 col-sm-10 col-md-10 col-lg-10">
+          <div class="address-line-place">
             <p>To</p>
             <form>
               <i class="fas fa-map-marker-alt"></i>
@@ -62,10 +60,8 @@
             </form>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h2>Moscow Restaurants</h2>
-          </div>
+        <div>
+          <h2>Moscow Restaurants</h2>
         </div>
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
@@ -146,64 +142,60 @@
     <!-- FOOTER -->
     <footer>
       <div class="container">
-        <div class="row">
-          <div class="footer-logo col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <a href="index.html"><img src="images/logo-footer.png" alt="logo" width="200px" style="margin: 0;"></a>
+        <div class="footer-logo">
+          <a href="index.html"><img src="images/logo-footer.png" alt="logo"></a>
+        </div>
+        <div class="footer-info">
+          <div class="footer-social">
+            <div class="select-language">
+              <i class="fas fa-globe"></i>
+              <select name="language">
+                <option>ENGLISH</option>
+                <option>RUSSIAN</option>
+              </select>
+              <button type="button"><i class="fas fa-angle-down"></i></button>
+            </div>
+            <p><span>#</span>UberEats</p>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">About UberEats</a></li>
+              <li><a href="#">Become a Delivery Partner</a></li>
+              <li><a href="#">Become a Restaurant Partner</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li><a href="#">See all cities</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
           </div>
         </div>
-        <div class="footer-wrapper">
-          <div class="footer-about row between-sm between-md between-lg"> <!-- тут не работает between wtf -->
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <div class="select-language">
-                <i class="fas fa-globe"></i>
-                <select name="language">
-                  <option>ENGLISH</option>
-                  <option>RUSSIAN</option>
-                </select>
-                <button type="button"><i class="fas fa-angle-down"></i></button>
-              </div>
-              <p><span>#</span>UberEats</p>
-              <a href="#"><i class="fab fa-facebook-square"></i></a>
-              <a href="#"><i class="fab fa-twitter-square"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-            <div class="about-column col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ul>
-                <li><a href="#">About UberEats</a></li>
-                <li><a href="#">Become a Delivery Partner</a></li>
-                <li><a href="#">Become a Restaurant Partner</a></li>
-              </ul>
-            </div>
-            <div class="about-column col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ul>
-                <li><a href="#">See all cities</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">FAQs</a></li>
-              </ul>
-            </div>
+        <div class="footer-apps">
+          <div>
+            <a href="#"><img src="images/apple-logo-footer.png" alt="appStore"></a>
+            <a href="#"><img src="images/google-logo-footer.png" alt="googlePlay"></a>
           </div>
         </div>
-        <div class="footer-wrapper">
-          <div class="row footer-stores">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-xs center-sm center-md center-lg">
-              <a href="#"><img src="images/apple-logo-footer.png" alt="appStore"></a>
-              <a href="#"><img src="images/google-logo-footer.png" alt="googlePlay"></a>
-            </div>
+        <div class="footer-rights">
+          <div class="footer-copy">
+            <p>&copy 2017 Uber Technologies Inc.</p>
           </div>
-        <div class="footer-wrapper">
-          <div class="row footer-info">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <p class="copy-info">&copy 2017 Uber Technologies Inc.</p>
-            </div>
-            <div class="privacy-margin col-xs-12 col-sm-4 col-md-4 col-lg-4 center-sm center-md center-lg">
-              <a href="#">Privacy</a>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 end-sm end-md end-lg">
-              <a href="#">Terms</a>
-            </div>
+          <div class="footer-privacy">
+            <a href="#">Privacy</a>
+          </div>
+          <div class="footer-terms">
+            <a href="#">Terms</a>
           </div>
         </div>
+        <a class="up-button" href="#top">
+          <i class="fas fa-arrow-up"></i>
+        </a>
       </div>
     </footer>
   </body>

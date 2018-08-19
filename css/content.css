@@ -28,26 +28,13 @@
   position: absolute;
 }
 
-@media screen and (min-width: 767px){
-  .address-line-xs{display: none;}
-}
-
 .address-line-xs{
+  display: flex;
   margin-bottom: 40px;
 }
 
-.address-line-xs form input{
-  line-height: 39px;
-  border: 1px solid rgb(38, 38, 38, 0.16);
-  border-radius: 2px;
-  padding-left: 40px;
-  width: 100%;
-}
-
-.address-line-xs form{
-  display: inline-block;
-  position: relative;
-  width: 100%;
+@media screen and (min-width: 767px){
+  .address-line-xs{display: none;}
 }
 
 .address-line-xs p{
@@ -55,8 +42,9 @@
   margin-bottom: 10px;
 }
 
-.address-line-xs button{
+.address-line-date button{
   padding: 8px 16px;
+  margin-right: 16px;
   background-color: #fff;
   line-height: 24px;
   border: 1px solid rgb(38, 38, 38, 0.16);
@@ -64,11 +52,27 @@
   font-size: 12px;
 }
 
-.address-line-xs form i{
+.address-line-place{
+  width: 100%;
+}
+
+.address-line-place form{
+  position: relative;
+}
+
+.address-line-place form i{
   position: absolute;
   top: 11px;
   left: 7px;
   font-size: 18px;
+}
+
+.address-line-place input{
+  line-height: 39px;
+  border: 1px solid rgb(38, 38, 38, 0.16);
+  border-radius: 2px;
+  padding-left: 40px;
+  width: 100%;
 }
 
 #content img{

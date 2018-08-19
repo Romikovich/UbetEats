@@ -37,7 +37,8 @@ a{
 @media screen and (max-width: 767px){
   .address-line{display: none;}
   .address-line-xs{display: block;}
-  .last-button button{display: none;}
+  .cart-button button{display: none;}
+  .cart-button{margin-left: 0 !important;}
   .register-button{margin-right: 0 !important;}
   .searching-line input::-moz-placeholder {font-size: 13px;}
   .searching-line input::-webkit-input-placeholder {font-size: 13px;}

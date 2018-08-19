@@ -16,8 +16,14 @@
   font-size: 13px;
 }
 
-.address-line {
-  padding-right: 0;
+.logo img{
+  width: 106px;
+  margin-top: 25px;
+}
+
+.header-wrapper{
+  display: flex;
+  justify-content: space-between;
 }
 
 .address-line form{
@@ -41,17 +47,17 @@
   width: 100%;
 }
 
-.last-button{
+.cart-button{
   margin-left: 20px;
 }
 
-.last-button i{
+.cart-button i{
   cursor: pointer;
   font-size: 25px;
   color: rgb(38, 38, 38, 0.66);
 }
 
-.last-button button{
+.cart-button button{
   margin-right: 0 !important;
   border-style: none !important;
 }
