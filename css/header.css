@@ -3,7 +3,7 @@
 }
 
 #main-header button{
-  margin: 15px 10px 15px 0;
+  margin-right: 15px;
   padding: 8px 16px;
   background-color: #fff;
   line-height: 24px;
@@ -19,10 +19,11 @@
 
 .logo img{
   width: 106px;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .header-wrapper{
+  padding: 15px 0;
   display: flex;
   justify-content: space-between;
 }
